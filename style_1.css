@@ -1,0 +1,155 @@
+body{
+  font: 15px/1.5 Arial;
+  padding: 0;
+  margin: 0;
+  background-color:yellow;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background: blue;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: red;
+}
+
+
+/* Header */
+header {
+  background:black;
+  color: blue;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+}
+
+header .highlight, header .current a{
+    color: #33cc00;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: blue;
+  font-weight: lighter;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url( 1543145620_0_winter-wear-big-banner1.jpg) 1200px;
+  text-align: justify;
+  color: white;
+}
+
+#showcase h1 {
+  margin-top:100px;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* webpage*/
+#webpage {
+  padding: 15px;
+  color: red;
+  background: #35424a;
+}
+
+#webpage h1 {
+ float: Right;
+}
+
+#webpage form {
+  float: right;
+  margin-top: 15px;
+}
+
+#webpage input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* boxes*/
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width:200px;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: whitesmoke;
+  background-color: blue;
+  text-align: center;
+}
+#icon {
+  margin-top: 20px;
+}
+
+#icons .icon {
+  float: left;
+  text-align: left;
+  width: 0%;
+  padding: 10px;
+}
+
+#icon .icon img{
+  width:5px;
+}
+
+
